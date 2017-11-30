@@ -1,7 +1,7 @@
 # PassWord
-超简易密码保存程序（无加密保护）
+超简易密码保存程序（AES加密保护）
 ## 依赖包
-pyperclip, shelve
+pyperclip, shelve, pycrypto
 ## 安装
 1. 拷贝到任意目录
 2. 终端：
@@ -28,4 +28,6 @@ change [account] [password] -change existed item
 del [account] -delete item
 clear all -delete all items
 list all -show all the items existed
+encrypt all -encrypt database use AES256
+decrypt all -decrypt database
 ```
