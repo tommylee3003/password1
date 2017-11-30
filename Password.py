@@ -33,7 +33,7 @@ state=f.read()
 
 if(state=="en"):
     str=input("please input the main password:")
-    if str!="273344":
+    if str!="123456":
         print("password wrong")
     else:
 
@@ -136,7 +136,7 @@ else:
             print("encrypt successd")
         elif order == 'decrypt':
             str = input("please input the main password:")
-            if str != "273344":
+            if str != "123456":
                 print("password wrong")
             else:
                 shelfFile.close()
